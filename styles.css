@@ -1,0 +1,219 @@
+/* CSS style sheet
+ * Built off of css example from https://tympanus.net/Development/AnimatedHeaderBackgrounds/index3.html 
+ * in order to work with javascript animation.
+ * Author: Alexander Danilowicz, 2017
+ */
+
+ /******* HEADERS **********/
+
+.large-header {
+    position: relative;
+    width: 100%;
+    background: #333;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+}
+
+.my .large-header {
+    background: #FFFAF0;
+}
+
+/********** H1, H2, H3 and BODY **********/
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+h2 {
+    font-weight: 400;
+    background:#FFFAF0;
+}
+
+h3 {
+    font-weight: 300;
+    line-height: 1.5;
+    background:#FFFAF0;
+}
+
+body {
+    background: #FFFAF0;
+    color: black;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.25;
+    font-family: 'Roboto', sans-serif;
+    margin-top:0px;
+    margin-left:30px;
+    margin-right:20px;
+}
+
+section {
+    padding: 1em;
+    text-align: center;
+}
+
+
+p.ref {
+    text-align: center;
+    padding: 2em 1em;
+}
+
+p {
+    word-spacing: 30px;
+}
+
+/************ IMAGES ************/
+
+img {
+    opacity: 1;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+    height: 256px;
+    width: 236px;
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+/******** CENTER TITLES *********/
+
+.text-title {
+    font-weight: bold;
+    font-size: 55px;
+    position: absolute;
+    color: #FFFAF0;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    top: 85%;
+    left: 53%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+    font-family: 'Roboto', sans-serif;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.text-title:hover {
+    font-weight: bold;
+    font-size: 55px;
+    position: absolute;
+    color: #90EE90;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    top: 85%;
+    left: 53%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+    font-family: 'Roboto', sans-serif;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    top: 50%;
+    left: 53%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+
+.my .main-title {
+    font-size: 4.2em;
+    letter-spacing: 0.1em;
+}
+
+.my .main-title {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-title .thin {
+    font-weight: 200;
+}
+
+.center {
+    text-align: center;
+    font-size: 2em;
+    /** from google chrome **/
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/******* LINKS **********/
+
+a.other:visited {
+    color:#00BFFF; /* Light Blue */
+    border-bottom: 3px solid #00FA9A; /* light neon green */
+}
+
+a.other:link {
+    color:#00BFFF; /* Light Blue */
+    text-decoration:none;
+    border-bottom: 3px solid #00FA9A; /* light neon green */
+}
+
+a.other:hover {
+    text-decoration: none;
+    color:orange;
+    border-bottom: 3px solid #FFFAF0; /*Tan background color */
+
+}
+
+a.email:visited {
+    color:#1E90FF; /* dark blue */
+    border-bottom: 3px solid #BA55D3; /* purple */
+}
+
+a.email:link {
+    color:#1E90FF; /* dark blue */
+    text-decoration:none;
+    border-bottom: 3px solid #BA55D3; /* purple */
+}
+
+a.email:hover {
+    text-decoration: none;
+    color:orange;
+    border-bottom: 3px solid #FFFAF0; /*Tan background color */
+
+}
+
+a.tedtalk:link {
+    color:#DC143C; /* crimson */
+    text-decoration:none;
+    border-bottom: 3px solid #DC143C; /* crimson */
+
+}
+a.tedtalk:visited {
+    color:#DC143C; /* crimson */
+    text-decoration:none;
+}
+
+a.tedtalk:hover {
+    text-decoration: none;
+    color:orange;
+    border-bottom: 3px solid #FFFAF0; /*Tan background color */
+
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- My personal website. My first attempt at HTML and CSS, and a little bit of javascript -->
+<!-- Author Alexander Danilowicz with help from Stackoverflow and Google. -->
+<!-- Lots of thanks for inspiration to my friend Teddy Ni -->
+<!-- Javascript animation: https://tympanus.net/Development/AnimatedHeaderBackgrounds/index3.html -->
+<!-- Licensing for JS animation: https://tympanus.net/codrops/licensing/ -->
+
+<html>
+<!-- HEADER -->
+<head>
+	<!-- page flavicon Dartmouth D logo -->
+	<link rel="icon" href="http://www.socceracademies.org/img/logo-dartmouth-f.png">
+	<!-- page flavicon end-->
+	<title> Alexander Danilowicz</title>
+	<meta name="keywords" content="Alexander Danilowicz, Dartmouth College, software engineer, CS, Computer Science, TED talk, Microsoft Student Partner">
+	<meta name="description" content="Dartmouth College undergraduate majoring in Computer Science and Economics with experience working for an S&P 500 company, TA-ing Ivy League CS courses, and giving a TED talk.">
+	<!-- CSS and google font api -->
+	<!--my css sheet -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<!-- sweet google font api -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<!-- HEADER -->
+
+<!-- BODY -->
+<body>
+		<div class="container my">
+			<div class="content">
+          <div id="large-header" class="large-header">
+            <canvas id="demo-canvas"></canvas> <!--- animation -->
+            <h1 class="main-title"> <img src="images/profileFinal.png" width="230" height="250"></span></h1>
+            <h1 class="text-title"> Alexander Danilowicz </h1>
+          </div>
+          <div class="container">
+						<h1> Hi, I'm Alexander.</h1>
+							<h2> I'm a Dartmouth College junior majoring in computer science and economics. </h2> 
+							<h2> My experience includes working as a Microsoft Student Partner, serving as a Teaching Assistant for Dartmouth's Computer Science department, and interning at an S&P 500 company.</h2>
+							<h2> You can usually find me embarrasing myself on my skateboard or listening to Radiohead.</h2>
+							<!-- Email Link -->
+							<h2> <a href="mailto:alexander.j.danilowicz.19@dartmouth.edu" target="_top" class="email">Email me.</a> 
+							<!-- Ted Talk Link -->
+							<a href="https://www.youtube.com/watch?v=84QouBqCIWg" class="tedtalk"> Watch my TED talk.</a>
+							<br> </br>
+							<!-- Other Links -->
+							<a href="https://www.linkedin.com/in/alexanderdanilowicz/" class="other"> LinkedIn.</a>
+							<a href="https://github.com/alexdanilowicz" class="other"> GitHub.</a>
+							<a href="https://twitter.com/ajdanilowicz?lang=en" class="other"> Twitter.</a>
+						</h2>
+						</div>
+      </div>
+    </div>
+</body>
+
+<!-- Javascript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/easing/EasePack.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenLite.min.js"></script>
+<script src="nodes-anim.js"></script>
+<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
+<!-- Javascript -->
+
+
+</html>
