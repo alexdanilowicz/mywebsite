@@ -95,7 +95,7 @@ img:hover {
     padding: 0;
     text-align: center;
     top: 85%;
-    left: 53%;
+    left: 50%;
     -webkit-transform: translate3d(-50%,-50%,0);
     transform: translate3d(-50%,-50%,0);
     font-family: 'Roboto', sans-serif;
@@ -116,7 +116,7 @@ img:hover {
     padding: 0;
     text-align: center;
     top: 85%;
-    left: 53%;
+    left: 50%;
     -webkit-transform: translate3d(-50%,-50%,0);
     transform: translate3d(-50%,-50%,0);
     font-family: 'Roboto', sans-serif;
@@ -133,7 +133,7 @@ img:hover {
     padding: 0;
     text-align: center;
     top: 50%;
-    left: 53%;
+    left: 50%;
     -webkit-transform: translate3d(-50%,-50%,0);
     transform: translate3d(-50%,-50%,0);
 }
