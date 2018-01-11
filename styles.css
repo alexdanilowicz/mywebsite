@@ -1,7 +1,7 @@
 /* CSS style sheet
  * Built off of css example from https://tympanus.net/Development/AnimatedHeaderBackgrounds/index3.html 
  * in order to work with javascript animation.
- * Author: Alexander Danilowicz, 2017
+ * Author: Alexander Danilowicz, 2018
  */
 
  /******* HEADERS **********/
@@ -12,7 +12,7 @@
     background: #333;
     overflow: hidden;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     z-index: 1;
 }
 
@@ -42,13 +42,17 @@ h3 {
     background:#FFFAF0;
 }
 
+h4 {
+    background-position: center;
+}
+
 body {
     background: #FFFAF0;
     color: black;
     font-family: 'Roboto', sans-serif;
     margin-top:0px;
-    margin-left: 20px;
-    margin-right: 20px;
+    /*margin-left: 20px;
+    margin-right: 20px;*/
 }
 
 section {
