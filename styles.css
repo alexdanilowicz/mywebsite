@@ -1,5 +1,5 @@
 /* CSS style sheet
- * Built off of css example from https://tympanus.net/Development/AnimatedHeaderBackgrounds/index3.html 
+ * Built off of css example from https://tympanus.net/Development/AnimatedHeaderBackgrounds/index3.html
  * in order to work with javascript animation.
  * Author: Alexander Danilowicz, 2018
  */
@@ -37,16 +37,6 @@ h2 {
 }
 
 
-h3 {
-    font-weight: 300;
-    line-height: 1.5;
-    background:#FFFAF0;
-}
-
-h4 {
-    background-position: center;
-}
-
 body {
     background: #FFFAF0;
     color: black;
@@ -56,19 +46,9 @@ body {
     margin-right: 30px;
 }
 
-section {
-    padding: 1em;
-    text-align: center;
-}
-
-
-p.ref {
-    text-align: center;
-    padding: 2em 1em;
-}
-
 p {
-    word-spacing: 30px;
+  font-weight: 400;
+  background:#FFFAF0;
 }
 
 /************ IMAGES ************/
