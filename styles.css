@@ -93,7 +93,7 @@ img:hover {
     font-weight: bold;
     font-size: 55px;
     position: absolute;
-    color: #99ff99; /* light green */
+    color: #ADD8E6; /* light blue */
     letter-spacing: 2px;
     margin: 0;
     padding: 0;
@@ -216,21 +216,26 @@ a.tedtalk:hover {
 
 }
 
-a.bodylinks:link {
-    color:#228B22; /* forestgreen */
-    font-weight: bold;
+a.devpost:link {
+    color:#8A2BE2; /* light bl */
+    font-weight: bolder;
     text-decoration:none;
 
 }
-a.bodylinks:visited {
-    color:#228B22; /* forestgreen */
-    font-weight: bold;
+a.devpost:visited {
+    color:#8A2BE2; /* light bl */
+    font-weight: bolder;
     text-decoration:none;
 }
 
-a.bodylinks:hover {
+a.devpost:hover {
     text-decoration: none;
     color:orange;
     border-bottom: 3px solid #FFFAF0; /*Tan background color */
 
+}
+
+span {
+  margin: 0;
+  padding: 0;
 }
