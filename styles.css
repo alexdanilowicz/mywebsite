@@ -22,6 +22,15 @@
 
 /********** H1, H2, H3 and BODY **********/
 
+#title {
+    display: block;
+    font-size: 3em;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
 h1 {
     display: block;
     font-size: 2em;
@@ -229,6 +238,25 @@ a.devpost:visited {
 }
 
 a.devpost:hover {
+    text-decoration: none;
+    color:orange;
+    border-bottom: 3px solid #FFFAF0; /*Tan background color */
+
+}
+
+a.lor:link {
+    color:#0072C6; /* dark bl */
+    font-weight: bolder;
+    text-decoration:none;
+
+}
+a.lor:visited {
+    color:#0072C6; /* dark bl */
+    font-weight: bolder;
+    text-decoration:none;
+}
+
+a.lor:hover {
     text-decoration: none;
     color:orange;
     border-bottom: 3px solid #FFFAF0; /*Tan background color */
