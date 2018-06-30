@@ -207,6 +207,10 @@ a.email:hover {
 
 }
 
+.ted {
+    margin-bottom: 2%;
+}
+
 a.tedtalk:link {
     color:#DC143C; /* crimson */
     text-decoration:none;
